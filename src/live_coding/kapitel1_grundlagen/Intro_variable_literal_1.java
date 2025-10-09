@@ -1,6 +1,6 @@
 package live_coding.kapitel1_grundlagen;
 
-public class Intro_variablen_literalte {
+public class Intro_variable_literal_1 {
     public static void main(String[] args) {
 
 
