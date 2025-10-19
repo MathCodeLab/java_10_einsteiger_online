@@ -77,18 +77,18 @@ public class Operators_4 {
         boolean result10 = true & true; // true
 
 
-        boolean result11 = false  false; // false
-        boolean result12 = false  true; // true
-        boolean result13 = true  false; // true
-        boolean result14 = true  true; // true
+        boolean result11 = false || false; // false
+        boolean result12 = false || true; // true
+        boolean result13 = true  || false; // true
+        boolean result14 = true  || true; // true
 
         boolean result15 = !true; // false
 
         // --------------------
-        System.out.println(true & (4 < t) & (false  true));
-        System.out.println(true & 4 < t & false  true);
+        System.out.println(true & (4 < t) & (false || true));
+        System.out.println(true & 4 < t & false  || true);
 
-        System.out.println(  true & false  false  );
+        System.out.println(  true & false  || false  );
         System.out.println( 5 + 6 * 2);
 
         System.out.println( (true & false) || false);

@@ -1,4 +1,4 @@
-package live_coding.kapitel1_grundlagen;
+package live_coding.kapitel2_flow_control;
 
 public class If_condition_5 {
     public static void main(String[] args) {
@@ -27,7 +27,6 @@ public class If_condition_5 {
         }
 
         System.out.println("goodbye!");
-
 
 
 
