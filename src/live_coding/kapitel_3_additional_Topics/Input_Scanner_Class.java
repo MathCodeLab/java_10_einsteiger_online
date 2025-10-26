@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Input_Scanner_Class {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        int age = scanner.nextInt();
+        Scanner myScanner = new Scanner(System.in); // one time only!!!
 
+        String txt = myScanner.nextLine();
+        int age = myScanner.nextInt();
 
         if (age > 12    &   age < 60){
             System.out.println("You are allowed to enter.");
@@ -17,8 +18,6 @@ public class Input_Scanner_Class {
         else {
             System.out.println(" XXXX You are NOT allowed XXXX");
         }
-
-
 
 
     }
