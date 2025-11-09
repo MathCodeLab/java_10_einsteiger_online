@@ -1,9 +1,8 @@
 package homeworks;
 
-import java.util.Random;
 import java.util.Scanner;
 
-public class coffee_order {
+public class Coffee_order {
     public static void main(String[] args) {
 
 
