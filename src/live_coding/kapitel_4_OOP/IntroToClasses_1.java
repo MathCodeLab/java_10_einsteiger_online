@@ -27,12 +27,28 @@ public class IntroToClasses_1 {
         int y = 7;
 
         int[] myArr1 = new int[5]; // arrays with 5 int elements
-        String[] myAr2 = new String[5]; // arrays with 5 String el
-        // ements
+        String[] myAr2 = new String[5]; // arrays with 5 String elements
+
         String[] names = {"serin", "sara",  "baneen", "yasser"};
         int[] scores = {10, 100, 1000, 1};
         float[] lengths = {12.3f, 14.2f, 17.2f, 9.2f};
         int[] ages = {24, 22, 23, 24};
+
+
+        int[] degree = new int[20];
+        String[] studentNames = new String[20];
+
+        degree[2] = 100;
+        degree[3] = 101;
+
+        studentNames[2] = "Sarah";
+        studentNames[3] = "Baneen";
+
+
+        String[] JavaStudentNames = {"serin", "yasser", "sarah", "baneen"};
+
+
+
 
 
         // name, score, length, age
