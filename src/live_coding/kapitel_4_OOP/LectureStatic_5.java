@@ -42,7 +42,6 @@ public class LectureStatic_5 {
         System.out.println(House.country);
         System.out.println(Dog.country);
         System.out.println(LectureStatic_5.country);
-         System.out.println(House.);
         // System.out.println(country);
 
 
